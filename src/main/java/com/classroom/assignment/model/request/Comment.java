@@ -6,7 +6,7 @@ public class Comment {
   private String content;
   private String mail;
 
-  public Comment(String name, String content) {
+  public Comment(String name, String content, String mail) {
     this.setName(name);
     this.setContent(content);
     this.setMail(mail);
